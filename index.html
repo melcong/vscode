@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌤 Weather</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6af8641c7f.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles.css">
+
+</head>
+
+<body class="gradient">
+
+    <div class="container">
+        <form id="search-form" class="enter-city">
+            <input type="search" placeholder="Enter your city" input type="submit" autocomplete="off" autofocus="on"
+                id="city-input" />
+
+            <input type="submit" value="Search" id="submit-input" />
+
+            <button id="searchButton">
+                Current Location
+            </button>
+    </div>
+    </div>
+    </div>
+    <h1 class="city">Toronto</h1>
+    <h2 class="date">Sunday 14:00</h2>
+    <h3 class="temp" id="temperature">-6</h3>
+    <span class="units">
+        <a href="#" id="celsius-link">°F |</a> <a href="#" id="fahrenheit-link">°C</a>
+        <div class="today"></div>
+        <div class="snowflake1">
+            <i class="fas fa-snowflake"></i>
+        </div>
+        <div style="float: center;"></div>
+
+        <ul class="description">
+            <li>Precipitation 28%</li>
+            <li>Humidity 58% </li>
+            <li>Wind 26km/h</li>
+            <li>Visibility 18km</li>
+        </ul>
+
+        </div>
+        </div>
+        <div class="weekly-metrics">
+            <div class="row">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                Monday
+            </div>
+            <div class="col-3">
+                1°C
+            </div>
+            <div class="col 3">
+                -6°C
+            </div>
+            <div class="col cloud">
+                <i class="fas fa-cloud"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col 3">
+                Tuesday
+            </div>
+            <div class="col 3">
+                3°C
+            </div>
+            <div class="col 3">
+                -1°C
+            </div>
+            <div class="col snowflake">
+                <i class="fas fa-snowflake"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col 3">
+                Wednesday
+            </div>
+            <div class="col 3">
+                6°C
+            </div>
+            <div class="col 3">
+                -2°C
+            </div>
+            <div class="col sun">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col 3">
+                Thursday
+            </div>
+            <div class="col 3">
+                0°C
+            </div>
+            <div class="col 3">
+                -8°C
+            </div>
+            <div class="col wind">
+                <i class="fas fa-wind"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col 3">
+                Friday
+            </div>
+            <div class="col 3">
+                2°C
+            </div>
+            <div class="col 3">
+                -3°C
+            </div>
+            <div class="col cloud-sun">
+                <i class="fas fa-cloud-sun"></i>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <script src="src/index.js"></script>
+</body>
+
+</html>

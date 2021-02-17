@@ -1,0 +1,105 @@
+.gradient {
+  background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  border-radius: 10px;
+  border: 5px solid black;
+  padding: none;
+  background-attachment: fixed;
+  margin: auto;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: content-box;
+}
+
+.temp {
+  font-size: 44px;
+  margin: 20px;
+}
+
+.snowflake1 {
+  color: #03cafc;
+  text-align: center;
+  font-size: 200px;
+  line-height: none;
+}
+
+.degree {
+  font-size: 45px;
+  text-align: left;
+  padding-left: 18px;
+}
+
+.date {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 18px;
+  line-height: none;
+}
+
+.city {
+  text-align: left;
+  font-size: 45px;
+  padding-left: 18px;
+}
+.metrics {
+  text-align: center;
+  list-style-type: none;
+}
+
+.main-details {
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.search {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+.location {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+.description {
+  display: block;
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+}
+
+.snowflake {
+  color: #03cafc;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.cloud {
+  color: #03cafc;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.wind {
+  color: #03cafc;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.sun {
+  color: #03cafc;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.cloud-sun {
+  color: #03cafc;
+  font-size: 30px;
+  line-height: 40px;
+}
