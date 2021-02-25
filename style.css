@@ -67,13 +67,6 @@
   transition: all 200ms ease-in-out;
 }
 
-.description {
-  display: block;
-  text-align: center;
-  list-style: none;
-  font-size: 16px;
-}
-
 .snowflake {
   color: #03cafc;
   font-size: 30px;
