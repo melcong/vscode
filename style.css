@@ -27,6 +27,12 @@
   line-height: none;
 }
 
+.weather-details {
+  color: #000000;
+  font-size: 25px;
+  text-align: right;
+}
+
 .degree {
   font-size: 45px;
   text-align: left;
